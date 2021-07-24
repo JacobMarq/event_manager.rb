@@ -54,6 +54,7 @@ def save_letter(id, letter)
 end
 
 contents = CSV.open(
+    #'event_attendees_full.csv',
     'event_attendees.csv',
     headers: true,
     header_converters: :symbol
